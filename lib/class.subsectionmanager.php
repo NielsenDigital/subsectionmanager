@@ -47,7 +47,7 @@
 				'image' =>	'<li data-value="{$value}" data-drop="{$droptext}" class="instance preview">
 								<input type="hidden" value="{$value}" />
 								<header>
-									<img src="{$url}/image/2/40/40/5{$preview}" width="40" height="40" class="handle" />
+									<img src="{$url}/image/2/40/40/5/{$preview}" width="40" height="40" class="handle" />
 									{$caption}
 								</header>
 								<div class="content"></div>
@@ -63,7 +63,7 @@
 			),
 			'index' => array(
 				'text' =>	'{$caption}',
-				'image' =>	'<img src="{$url}/image/2/40/40/5{$preview}" width="40" height="40" /><span>{$caption}</span>',
+				'image' =>	'<img src="{$url}/image/2/40/40/5/{$preview}" width="40" height="40" /><span>{$caption}</span>',
 				'file' =>	'{$caption}'
 			)
 		);
