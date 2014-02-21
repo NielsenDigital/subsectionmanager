@@ -5,6 +5,10 @@
  * @source: http://github.com/hananils/subsectionmanager
  */
 
+.field-subsectionmanager #drawer-documenter
+{
+	display:none;
+}
 .field-subsectionmanager label {
 	margin-bottom: 2px;
 }
